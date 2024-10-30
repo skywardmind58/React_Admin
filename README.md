@@ -1,15 +1,13 @@
 # ReactJS-AdminLTE
 
-![Maintenance](https://img.shields.io/maintenance/no/2017?style=for-the-badge)
-
-ReactJS version of the original AdminLTE dashboard - https://github.com/almasaeed2010/AdminLTE. This project consists of widgets, charts and other components written in ReactJS. Stylesheets are borrowed from the AdminLTE project.
+This project consists of widgets, charts and other components written in ReactJS. Stylesheets are borrowed from the AdminLTE project.
 
 -----
 ## Update
 
 Thank you kindly for the ⭐ and forks. When I first started working on this project in 2015, I had just graduated from college and had no prior exposure to web-development or open source. I was very new to the open-source world, and did not fully grasp the challenges in maintaining an open-source project sustainably.
 
-For few months while I was working in a fast-paced startup, I moved my focus away from ReactJS to focus on other technologies. But by the time I once again tried to resume work on this project, the ReactJS core library, tooling and ecosystem had changed so rapidly that this repository practically needed a rewrite from scratch. As evident from the [number of issues](https://github.com/booleanhunter/ReactJS-AdminLTE/issues) that users kept raising - the project was rendered unusable in the later versions of React.
+For few months while I was working in a fast-paced startup, I moved my focus away from ReactJS to focus on other technologies. But by the time I once again tried to resume work on this project, the ReactJS core library, tooling and ecosystem had changed so rapidly that this repository practically needed a rewrite from scratch. As evident from the [number of issues](https://github.com/skywardmind58/ReactJS-AdminLTE/issues) that users kept raising - the project was rendered unusable in the later versions of React.
 
 Without financial support, it was overwhelming to fix these issues, not to mention that I felt like an absolute imposter. With a heavy heart 💔, I decided to archive this project, and as-of-today, this is where it stands.
 
@@ -19,7 +17,7 @@ Back in 2015, ready-to-use React component libraries were somewhat unknown, and 
 
 So my fellow hipster, you're much better off using one of those than this one. This repo might just be of historical academic interest to you, but try not to use this one in a real project.
 
-I take comfort knowing that this has been quite the learning experience, and since then I have been educating myself on open-source sustainability. 🔥 Today I have other projects that I now actively maintain, that could really use your ⭐ and support. Please visit [my profile](https://github.com/booleanhunter) and check out my pinned repositories for the same. Thank you 🙏🏼
+I take comfort knowing that this has been quite the learning experience, and since then I have been educating myself on open-source sustainability. 🔥 Today I have other projects that I now actively maintain, that could really use your ⭐ and support. Please visit [my profile](https://github.com/skywardmind58) and check out my pinned repositories for the same. Thank you 🙏🏼
 
 -----
 
@@ -27,39 +25,39 @@ I take comfort knowing that this has been quite the learning experience, and sin
 
 If you use React in your app, you might find some of these components useful!
 
-[View the complete list of available components](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src/components)
+[View the complete list of available components](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src/components)
 
 
 ### Some available components in React: 
 
 
-- [ReactJS Timeline](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src/components/#--timeline)
+- [ReactJS Timeline](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src/components/#--timeline)
 
-    [Click here](http://adminlte.booleanhunter.com/timeline.html) to see it live
+    [Click here](http://adminlte.skywardmind58.com/timeline.html) to see it live
 
 
-- [ReactJS Widgets](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src/components)
+- [ReactJS Widgets](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src/components)
 
-    [Click here](http://adminlte.booleanhunter.com/widgets.html) to see a live preview!
+    [Click here](http://adminlte.skywardmind58.com/widgets.html) to see a live preview!
 
-    ![](https://github.com/booleanhunter/ReactJS-AdminLTE/blob/master/screenshots/widgets.png?raw=true)
+    ![](https://github.com/skywardmind58/ReactJS-AdminLTE/blob/master/screenshots/widgets.png?raw=true)
 
 
 ##### Widgets will use velocity.js animations instead of the originally used JQuery animations wherever possible, for improved performance across all browsers and devices.
 
 
-[ReactJS Dashboard](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src/pages/dashboardV1)
+[ReactJS Dashboard](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src/pages/dashboardV1)
 
 Will soon be populated with charts.
 
-![](https://github.com/booleanhunter/ReactJS-AdminLTE/blob/master/screenshots/dashboard-v1.png?raw=true)
+![](https://github.com/skywardmind58/ReactJS-AdminLTE/blob/master/screenshots/dashboard-v1.png?raw=true)
 
 
 More stuff coming soon. Stay tuned!
 
 ### Instructions of Usage :
 - Run `npm install adminlte-reactjs`
-- Include the stylesheets for the components, similar to the [widgets page](https://github.com/booleanhunter/ReactJS-AdminLTE/blob/master/views/widgets.html)
+- Include the stylesheets for the components, similar to the [widgets page](https://github.com/skywardmind58/ReactJS-AdminLTE/blob/master/views/widgets.html)
 - Include the library `var reactjsAdminlte = require('adminlte-reactjs')`. You may prefer the AMD style or the import statement.
 - You can now begin using the components like this `var ProfileCard = reactjsAdminlte.ProfileCard`.
 - If you don't need all the components, then you can choose to include only specific ones rather than the entire library. This can reduce your JS bundle size significantly `var StatTile = require('adminlte-reactjs/src/components/stat-tile')`
@@ -70,7 +68,7 @@ More stuff coming soon. Stay tuned!
 
 #### Where can you contribute? (starting from easy to relatively challenging)
 
-- Covering [documentation](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src/components#list-of-components) for all the available components and how to use them (this is the easiest one, but quite important!)
+- Covering [documentation](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src/components#list-of-components) for all the available components and how to use them (this is the easiest one, but quite important!)
 - Converting existing components into ES6/ECMAScript 2016 
 - Writing tests for components. Similar to tests written in the [React-Bootstrap](https://github.com/react-bootstrap/react-bootstrap/tree/master/test) project.
 - Reactifying the rest of the widgets, elements and pages from AdminLTE. Here are the steps to do this:
@@ -88,9 +86,9 @@ More stuff coming soon. Stay tuned!
 #### Step 2:
 
 - Pick a [page](https://almsaeedstudio.com/themes/AdminLTE/index2.html) from the AdminLTE project to reactify it, or some widget that hasn't been reactified yet.
-- If the page for it doesn't exist in the repo, create one for it in the [views](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/views) folder, and render the page by defining a route for it inside [routes.js](https://github.com/booleanhunter/ReactJS-AdminLTE/blob/master/routes.js).
-- Create the entry point that renders the components inside [/src/pages](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src/pages) folder. Now you can begin writing your components and testing them!
-- To view and test your components on the page, add your entry point in [webpack.config.js](https://github.com/booleanhunter/ReactJS-AdminLTE/blob/master/webpack.config.js). Run `webpack -p` to generate the bundle for the page, and include the bundle and associated vendors for it in the page using `script` tags.
+- If the page for it doesn't exist in the repo, create one for it in the [views](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/views) folder, and render the page by defining a route for it inside [routes.js](https://github.com/skywardmind58/ReactJS-AdminLTE/blob/master/routes.js).
+- Create the entry point that renders the components inside [/src/pages](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src/pages) folder. Now you can begin writing your components and testing them!
+- To view and test your components on the page, add your entry point in [webpack.config.js](https://github.com/skywardmind58/ReactJS-AdminLTE/blob/master/webpack.config.js). Run `webpack -p` to generate the bundle for the page, and include the bundle and associated vendors for it in the page using `script` tags.
 - `webpack-dev-server` along with React Hot Loader can be used to ease your development workflow. This can be done by installing dev dependencies from `package.json` file. If you haven't, then run `npm install webpack-dev-server` and `npm install react-hot-loader`. Then in your HTML, change your javascript bundles' source paths to point to the webpack-dev-server proxy in your `script` tags. So if you have these bundles for example,
 
 ```html
@@ -107,13 +105,13 @@ change this to
 
 Then you can run `webpack-dev-server --hot --inline` just once - and every time you make any edits to your code and save it, the server will automatically create bundles and update the changes in the browser. This is highly recommended instead of running `webpack -p` every time you make some edit in your code. You can later change the `script` tags back once you stop `webpack-dev-server`.
 
-For a detailed explanation on setting up a workflow using Webpack, check out my blog post - [Webpack for The Fast and The Furious](https://medium.com/@booleanhunter/webpack-for-the-fast-and-the-furious-bf8d3746adbd#.uzx2l0hy4) :oncoming_police_car:
+For a detailed explanation on setting up a workflow using Webpack, check out my blog post - [Webpack for The Fast and The Furious](https://medium.com/@skywardmind58/webpack-for-the-fast-and-the-furious-bf8d3746adbd#.uzx2l0hy4) :oncoming_police_car:
 
 This is still a work in progress and will get better over time. 
 
 #### Step 3: Including your new components in the library
 After you've finished writing a component and testing it out, you can include it in the library.
-- Place/move your component inside the [/src/components](https://github.com/booleanhunter/ReactJS-AdminLTE/tree/master/src) folder and include it inside `widgets.src.js`.
+- Place/move your component inside the [/src/components](https://github.com/skywardmind58/ReactJS-AdminLTE/tree/master/src) folder and include it inside `widgets.src.js`.
 - Run `npm build` to generate the library `reactjsAdminlte.js`. Your component will be included in the library!
 - To make sure that your component works correctly, test it out by including it in the page using the library.
 
